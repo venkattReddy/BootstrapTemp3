@@ -1,0 +1,101 @@
+.top_bar{
+    background:darkorange;
+    border:none;
+    border-radius:none;
+    padding:10px 0;
+}
+#ffont_left{
+    font-size:20px;
+    color:white;
+}
+#ffont_right{
+    font-size:20px;
+    color:white;
+    text-align:right;
+}
+
+.myMenu,.myLogo{
+    margin-top:20px;
+}
+.myMenu .navbar-default{
+    background:none;
+    border: none;
+    font-size:1.3em;
+}
+.myMenu .navbar-nav li a:hover{
+    color:darkorange;
+    background:#dbdbdb;
+}
+.myMenu .navbar-nav li a:focus{
+    color: white;
+    background-color:darkorange;
+}
+.mySlider{
+    margin-bottom: 30px;
+}
+.mycontent{
+    text-align: justify;
+    font-size:16px;
+    padding:20px 0;
+    margin-bottom:20px;
+}
+.mycontent .myImage{
+    padding-top:20px;
+
+}
+.coursesec{
+    width: 100%;
+    height:auto;
+    background:#dbdbdb;
+}
+.our_courses{
+ background: radial-gradient(circle,#009cde,#003007);
+    padding:20px 0;
+}
+.our_courses h2{
+    color:white;
+}
+.our_courses .top_margin{
+    margin-top: 30px;
+}
+.our_team{
+    color:#337ab7;
+}
+.our_team h2{
+    color: #337ab7;
+}
+.team_content{
+    text-align: justify;
+    padding:0 10px ;
+    color:red;
+}
+.footer{
+    background:radial-gradient(circle,#009cde,#003007);
+    padding:20px 0;
+    margin-top:40px;
+    color:white;
+}
+.footer p{
+    text-align: justify;
+}
+.footer .contact{
+    padding:10px 100px;
+}
+.footer .addtext{
+  padding-left: 80px;
+}
+
+@media(max-width:1200px){
+   .myMenu .pull-right {
+       float:none !important;
+   }
+    .mycontent{
+        padding:10px;
+    }
+    .mycontent .myImage{
+        width:100%;
+    }
+    .footer .addtext{
+        padding:5px 5px;
+    }
+}
